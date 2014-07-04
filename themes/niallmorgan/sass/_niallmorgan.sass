@@ -1,0 +1,69 @@
+body
+  background-color: #E2857B
+  padding: 25px
+  a:hover
+    text-decoration: none
+  #page
+    background-color: #E1E1E1
+    #header
+      background-color: #fff
+      #logo
+        display: inline-block
+        height: 100px
+        width: 100px
+        background-color: #353535
+      #header-region
+        #block-boxes-main_menu
+          height: 125px
+          #main-menu
+            li
+              display: inline-block
+              float: left
+              position: relative
+              a
+                @include transition(all 0.4s ease)
+                display: inline-block
+                width: 125px
+                height: 125px
+                color: #fff
+                background-color: #353535
+                padding: 10px
+                position: absolute
+                top: 0
+                left: 0
+                z-index: 99
+              #home
+                width: 250px
+                background-color: #FFF
+                color: #353535
+              #work
+                background-color: lighten(#353535, 15%)
+                border-bottom: 0px solid lighten(#353535, 15%)
+                z-index: 98
+                &:hover
+                  background-color: #E2857B
+                  border-bottom: 10px solid lighten(#353535, 15%)
+              #about
+                background-color: lighten(#353535, 30%)
+                border-bottom: 0px solid lighten(#353535, 30%)
+                z-index: 97
+                &:hover
+                  background-color: #E2857B
+                  border-bottom: 10px solid lighten(#353535, 30%)
+              #contact
+                background-color: lighten(#353535, 45%)
+                border-bottom: 0px solid lighten(#353535, 45%)
+                z-index: 96
+                &:hover
+                  background-color: #E2857B
+                  border-bottom: 10px solid lighten(#353535, 45%)
+            &:hover
+              #work
+                left: 250px
+              #about
+                left: 375px
+              #contact
+                left: 500px
+
+
+
