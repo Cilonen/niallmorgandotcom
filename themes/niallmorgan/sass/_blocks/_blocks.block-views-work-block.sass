@@ -1,0 +1,14 @@
+#block-views-work-block
+  margin-top: 6.78%
+  .views-row
+    float: left
+    @include span-columns(3 of 12)
+    opacity: 0.5
+    &:nth-child(4n+4)
+      @include omega
+    &:hover
+      opacity: 1
+    .field-name-field-tile-image
+      img
+        width: 100%
+        height: auto

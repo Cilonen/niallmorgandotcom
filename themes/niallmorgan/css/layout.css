@@ -18,7 +18,7 @@
 .no-sidebars #content {
   float: left;
   display: block;
-  margin-right: 2.12766%;
+  margin-right: 0.84034%;
   width: 100%;
 }
 .no-sidebars #content:last-child {
@@ -28,7 +28,7 @@
   .no-sidebars #content {
     float: left;
     display: block;
-    margin-right: 3.22581%;
+    margin-right: 1.26582%;
     width: 100%;
   }
   .no-sidebars #content:last-child {
@@ -39,7 +39,7 @@
   .no-sidebars #content {
     float: left;
     display: block;
-    margin-right: 6.66667%;
+    margin-right: 2.5641%;
     width: 100%;
   }
   .no-sidebars #content:last-child {
@@ -49,8 +49,8 @@
 .one-sidebar.sidebar-second #content {
   float: left;
   display: block;
-  margin-right: 2.12766%;
-  width: 74.46809%;
+  margin-right: 0.84034%;
+  width: 74.78992%;
 }
 .one-sidebar.sidebar-second #content:last-child {
   margin-right: 0;
@@ -59,8 +59,8 @@
   .one-sidebar.sidebar-second #content {
     float: left;
     display: block;
-    margin-right: 3.22581%;
-    width: 74.19355%;
+    margin-right: 1.26582%;
+    width: 74.68354%;
   }
   .one-sidebar.sidebar-second #content:last-child {
     margin-right: 0;
@@ -70,7 +70,7 @@
   .one-sidebar.sidebar-second #content {
     float: left;
     display: block;
-    margin-right: 6.66667%;
+    margin-right: 2.5641%;
     width: 100%;
   }
   .one-sidebar.sidebar-second #content:last-child {
@@ -80,9 +80,9 @@
 .one-sidebar.sidebar-first #content {
   float: left;
   display: block;
-  margin-right: 2.12766%;
-  width: 82.97872%;
-  margin-left: 17.02128%;
+  margin-right: 0.84034%;
+  width: 83.19328%;
+  margin-left: 16.80672%;
 }
 .one-sidebar.sidebar-first #content:last-child {
   margin-right: 0;
@@ -91,9 +91,9 @@
   .one-sidebar.sidebar-first #content {
     float: left;
     display: block;
-    margin-right: 3.22581%;
-    width: 61.29032%;
-    margin-left: 25.80645%;
+    margin-right: 1.26582%;
+    width: 62.02532%;
+    margin-left: 25.31646%;
   }
   .one-sidebar.sidebar-first #content:last-child {
     margin-right: 0;
@@ -103,7 +103,7 @@
   .one-sidebar.sidebar-first #content {
     float: left;
     display: block;
-    margin-right: 6.66667%;
+    margin-right: 2.5641%;
     width: 100%;
     margin-left: 0%;
   }
@@ -114,9 +114,9 @@
 .two-sidebars #content {
   float: left;
   display: block;
-  margin-right: 2.12766%;
-  width: 57.44681%;
-  margin-left: 17.02128%;
+  margin-right: 0.84034%;
+  width: 57.98319%;
+  margin-left: 16.80672%;
 }
 .two-sidebars #content:last-child {
   margin-right: 0;
@@ -125,9 +125,9 @@
   .two-sidebars #content {
     float: left;
     display: block;
-    margin-right: 3.22581%;
-    width: 48.3871%;
-    margin-left: 25.80645%;
+    margin-right: 1.26582%;
+    width: 49.36709%;
+    margin-left: 25.31646%;
   }
   .two-sidebars #content:last-child {
     margin-right: 0;
@@ -137,7 +137,7 @@
   .two-sidebars #content {
     float: left;
     display: block;
-    margin-right: 6.66667%;
+    margin-right: 2.5641%;
     width: 100%;
     margin-left: 0%;
   }
@@ -149,36 +149,36 @@
 #sidebar-first {
   float: left;
   display: block;
-  margin-right: 2.12766%;
-  width: 14.89362%;
-  margin-left: -76.59574%;
+  margin-right: 0.84034%;
+  width: 15.96639%;
+  margin-left: -75.63025%;
 }
 #sidebar-first:last-child {
   margin-right: 0;
 }
 .sidebar-first #sidebar-first {
-  margin-left: -102.12766%;
+  margin-left: -100.84034%;
 }
 @media screen and (max-width: 768px) {
   #sidebar-first {
     float: left;
     display: block;
-    margin-right: 3.22581%;
-    width: 22.58065%;
-    margin-left: -77.41935%;
+    margin-right: 1.26582%;
+    width: 24.05063%;
+    margin-left: -75.94937%;
   }
   #sidebar-first:last-child {
     margin-right: 0;
   }
   .sidebar-first #sidebar-first {
-    margin-left: -90.32258%;
+    margin-left: -88.60759%;
   }
 }
 @media screen and (max-width: 480px) {
   #sidebar-first {
     float: left;
     display: block;
-    margin-right: 6.66667%;
+    margin-right: 2.5641%;
     width: 100%;
     margin-left: 0%;
   }
@@ -193,8 +193,8 @@
 #sidebar-second {
   float: left;
   display: block;
-  margin-right: 2.12766%;
-  width: 23.40426%;
+  margin-right: 0.84034%;
+  width: 24.36975%;
   margin-left: 0%;
 }
 #sidebar-second:last-child {
@@ -204,8 +204,8 @@
   #sidebar-second {
     float: left;
     display: block;
-    margin-right: 3.22581%;
-    width: 22.58065%;
+    margin-right: 1.26582%;
+    width: 24.05063%;
     margin-left: 0%;
   }
   #sidebar-second:last-child {
@@ -216,7 +216,7 @@
   #sidebar-second {
     float: left;
     display: block;
-    margin-right: 6.66667%;
+    margin-right: 2.5641%;
     width: 100%;
     margin-left: 0%;
   }

@@ -34,6 +34,7 @@ stylesheets[print][] = css/print.css
 
 ; Scripts
 scripts[] = js/build/modernizr.js
+scripts[] = js/build/scripts.js
 
 settings[niallmorgan_tabs] = 1
 settings[niallmorgan_breadcrumb] = 1

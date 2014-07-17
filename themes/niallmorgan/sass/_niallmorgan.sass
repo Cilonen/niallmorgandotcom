@@ -1,69 +1,73 @@
 body
-  background-color: #E2857B
-  padding: 25px
-  a:hover
-    text-decoration: none
-  #page
-    background-color: #E1E1E1
-    #header
-      background-color: #fff
-      #logo
-        display: inline-block
-        height: 100px
-        width: 100px
-        background-color: #353535
-      #header-region
-        #block-boxes-main_menu
-          height: 125px
-          #main-menu
-            li
-              display: inline-block
-              float: left
-              position: relative
-              a
-                @include transition(all 0.4s ease)
-                display: inline-block
-                width: 125px
-                height: 125px
-                color: #fff
-                background-color: #353535
-                padding: 10px
-                position: absolute
-                top: 0
-                left: 0
-                z-index: 99
-              #home
-                width: 250px
-                background-color: #FFF
-                color: #353535
-              #work
-                background-color: lighten(#353535, 15%)
-                border-bottom: 0px solid lighten(#353535, 15%)
-                z-index: 98
-                &:hover
-                  background-color: #E2857B
-                  border-bottom: 10px solid lighten(#353535, 15%)
-              #about
-                background-color: lighten(#353535, 30%)
-                border-bottom: 0px solid lighten(#353535, 30%)
-                z-index: 97
-                &:hover
-                  background-color: #E2857B
-                  border-bottom: 10px solid lighten(#353535, 30%)
-              #contact
-                background-color: lighten(#353535, 45%)
-                border-bottom: 0px solid lighten(#353535, 45%)
-                z-index: 96
-                &:hover
-                  background-color: #E2857B
-                  border-bottom: 10px solid lighten(#353535, 45%)
-            &:hover
-              #work
-                left: 250px
-              #about
-                left: 375px
-              #contact
-                left: 500px
-
-
-
+  background-color: #E1E1E1
+  padding: 55px
+  color: #353535
+a:hover
+  text-decoration: none
+#page
+  #header
+    //background-color: #fff
+    padding-top: 6.82%
+    #logo
+      display: inline-block
+      height: 100px
+      width: 100px
+      background-color: #353535
+      cursor: pointer
+    #header-region
+      #block-boxes-main_menu
+        height: auto
+        position: fixed
+        z-index: 99
+        top: 55px
+        left: 55px
+        right: 55px
+        .logged-in &
+          top: 84px
+        #logo
+          @include span-columns(3 of 12)
+          color: #353535
+          text-indent: -9999em
+          overflow: hidden
+          display: inline-block
+          height: 0
+          padding-top: 6.82%
+          background: url(../images/optimized/niallmorgan2010_logo_new.png) no-repeat 0 0
+          background-size: 100%
+          position: relative
+          z-index: 100
+          &:hover
+            background-position: 0 33.12%
+          .menu-open &
+            background-position: 0 66.46%
+          .menu-open &:hover
+            background-position: 0 100%
+        #main-menu
+          background-color: lighten( #000, 10% )
+          padding-top: 19.56%
+          z-index: 98
+          position: fixed
+          top: 0
+          left: 0
+          bottom: 0
+          right: 0
+          display: none
+          .menu-open &
+            display: block
+          li
+            list-style-type: none
+            a
+              @include transition(all 0.4s ease)
+              color: #fff
+              padding: 0 55px
+              font-size: 50px
+              line-height: 65px
+              font-weight: bold
+              &:hover
+                color: #E2857B
+  #main
+    div.tabs
+      display: none
+    h2.block-title
+      font-size: 50px
+      font-weight: bold
